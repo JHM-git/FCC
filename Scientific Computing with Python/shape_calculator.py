@@ -1,4 +1,5 @@
-
+#Class and subclass for shapes
+#Categorias para formas
 
 class Rectangle:
   def __init__(self, width, height):

@@ -1,3 +1,8 @@
+#Class with n number of elements with a draw method to ranndomly draw a x number of balls
+#Experiment function for probability count
+#Categoria con n número de elementos con método para sacar al azar un x número de dichos elementos
+#La función experiemnt calcula probabilidades
+
 import copy
 import random
 

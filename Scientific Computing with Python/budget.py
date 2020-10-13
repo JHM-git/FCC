@@ -1,4 +1,5 @@
-
+#A budget class with methods to withdraw, deposit, transfer, etc.
+#Una categoría de presupuesto con métodos para depositar, sacar, y hacer transferencias
 
 class Category:
   
@@ -48,6 +49,8 @@ class Category:
       return False
 
   def __repr__(self):
+    #prints a receipt of all transactions
+    #imprime un recibo con todasl las transferencias
     blank = ' '
     asterix = '*'
     newline = '\n'
@@ -67,6 +70,8 @@ class Category:
     return receipt
 
 def create_spend_chart(categories):
+  #prints a bar chart (as string) with spent percentages
+  #imprime un gráfico de barras (como string) de los porcentajes de gasto
   spent_by_cgory = []
   for category in categories:
     category_spend = 0

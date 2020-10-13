@@ -1,4 +1,5 @@
-
+#returns a vertically aligned mathematic problem, and solution
+#imprime una calculación alineada verticalmente, y su solución
 
 string = '632 + 45'
 the_list = ["32 + 698", "3801 - 2", "45 + 43", "123 + 49"]

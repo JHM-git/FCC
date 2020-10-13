@@ -1,4 +1,5 @@
-
+#takes in time plus added time, returns new time, day, and how many days later
+#con una hora y tiempo añadido devuelve la nueva hora, el día si especificado, y cuantos días hay de diferencia
 
 time = "3:00 PM"
 added_time = "3:10"
